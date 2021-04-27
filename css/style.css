@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+}
+
+main{
+    background-image: url(/img/NX7PC.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+header{
+    height: 100px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 30px;
+    clear: both;
+}
+footer{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+    clear: both;
+}
+
+h1{
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#form{
+    float: left;
+    background-color: RGBA(211, 211, 211, 0.548);
+    position: relative;
+    top: 10%;
+    left: 10%;
+    padding: 50px;
+    text-align: center;
+}
+
+
+#table-div{
+    float: right;
+    padding: 50px;
+    background-color:RGBA(211, 211, 211, 0.548); 
+    width: 20%;
+    position: relative;
+    right: 15%;
+    top: 10%;
+}
+
+table, td, th, tr{
+
+    border: solid white 2px;
+    color: white;
+
+}
+
+#headerRow{
+    background-color: RGB(39, 39, 39);
+}
+
+td{
+    background-color: RGB(78, 78, 78);
+}
+
+label, input, select{
+    width: 100%;
+}
+
+td,th{
+    padding: 5px;
+}
+
+#button{
+
+    background-color: RGB(39, 39, 39);
+    color: white;
+    border-radius:28px;
+    margin-top: 20px;
+}
+
+#type{
+    margin-top: 20px;
+    border-radius:28px;
+
+}
+
+#type-label{
+    position: relative;
+    top: 18px;
+}
+
+fieldset{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+#name{
+    border-radius:28px;
+}
+
+#clear-button{
+    background-color: RGB(39, 39, 39);
+    color: white;
+    border-radius:28px;
+    margin-top: 20px;
+}
